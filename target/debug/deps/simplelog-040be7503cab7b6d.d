@@ -1,0 +1,12 @@
+/Users/lteng/Movebit/sui-move/target/debug/deps/simplelog-040be7503cab7b6d.rmeta: /Users/lteng/.cargo/registry/src/github.com-1ecc6299db9ec823/simplelog-0.9.0/src/lib.rs /Users/lteng/.cargo/registry/src/github.com-1ecc6299db9ec823/simplelog-0.9.0/src/config.rs /Users/lteng/.cargo/registry/src/github.com-1ecc6299db9ec823/simplelog-0.9.0/src/loggers/mod.rs /Users/lteng/.cargo/registry/src/github.com-1ecc6299db9ec823/simplelog-0.9.0/src/loggers/comblog.rs /Users/lteng/.cargo/registry/src/github.com-1ecc6299db9ec823/simplelog-0.9.0/src/loggers/logging.rs /Users/lteng/.cargo/registry/src/github.com-1ecc6299db9ec823/simplelog-0.9.0/src/loggers/simplelog.rs /Users/lteng/.cargo/registry/src/github.com-1ecc6299db9ec823/simplelog-0.9.0/src/loggers/termlog.rs /Users/lteng/.cargo/registry/src/github.com-1ecc6299db9ec823/simplelog-0.9.0/src/loggers/writelog.rs
+
+/Users/lteng/Movebit/sui-move/target/debug/deps/simplelog-040be7503cab7b6d.d: /Users/lteng/.cargo/registry/src/github.com-1ecc6299db9ec823/simplelog-0.9.0/src/lib.rs /Users/lteng/.cargo/registry/src/github.com-1ecc6299db9ec823/simplelog-0.9.0/src/config.rs /Users/lteng/.cargo/registry/src/github.com-1ecc6299db9ec823/simplelog-0.9.0/src/loggers/mod.rs /Users/lteng/.cargo/registry/src/github.com-1ecc6299db9ec823/simplelog-0.9.0/src/loggers/comblog.rs /Users/lteng/.cargo/registry/src/github.com-1ecc6299db9ec823/simplelog-0.9.0/src/loggers/logging.rs /Users/lteng/.cargo/registry/src/github.com-1ecc6299db9ec823/simplelog-0.9.0/src/loggers/simplelog.rs /Users/lteng/.cargo/registry/src/github.com-1ecc6299db9ec823/simplelog-0.9.0/src/loggers/termlog.rs /Users/lteng/.cargo/registry/src/github.com-1ecc6299db9ec823/simplelog-0.9.0/src/loggers/writelog.rs
+
+/Users/lteng/.cargo/registry/src/github.com-1ecc6299db9ec823/simplelog-0.9.0/src/lib.rs:
+/Users/lteng/.cargo/registry/src/github.com-1ecc6299db9ec823/simplelog-0.9.0/src/config.rs:
+/Users/lteng/.cargo/registry/src/github.com-1ecc6299db9ec823/simplelog-0.9.0/src/loggers/mod.rs:
+/Users/lteng/.cargo/registry/src/github.com-1ecc6299db9ec823/simplelog-0.9.0/src/loggers/comblog.rs:
+/Users/lteng/.cargo/registry/src/github.com-1ecc6299db9ec823/simplelog-0.9.0/src/loggers/logging.rs:
+/Users/lteng/.cargo/registry/src/github.com-1ecc6299db9ec823/simplelog-0.9.0/src/loggers/simplelog.rs:
+/Users/lteng/.cargo/registry/src/github.com-1ecc6299db9ec823/simplelog-0.9.0/src/loggers/termlog.rs:
+/Users/lteng/.cargo/registry/src/github.com-1ecc6299db9ec823/simplelog-0.9.0/src/loggers/writelog.rs:

@@ -1,0 +1,28 @@
+/Users/lteng/Movebit/sui-move/target/debug/deps/diem_crypto-f3a2bcbb72a744ea.rmeta: language/documentation/examples/diem-framework/crates/crypto/src/lib.rs language/documentation/examples/diem-framework/crates/crypto/src/compat.rs language/documentation/examples/diem-framework/crates/crypto/src/ed25519.rs language/documentation/examples/diem-framework/crates/crypto/src/error.rs language/documentation/examples/diem-framework/crates/crypto/src/hash.rs language/documentation/examples/diem-framework/crates/crypto/src/hkdf.rs language/documentation/examples/diem-framework/crates/crypto/src/multi_ed25519.rs language/documentation/examples/diem-framework/crates/crypto/src/noise.rs language/documentation/examples/diem-framework/crates/crypto/src/test_utils.rs language/documentation/examples/diem-framework/crates/crypto/src/traits.rs language/documentation/examples/diem-framework/crates/crypto/src/validatable.rs language/documentation/examples/diem-framework/crates/crypto/src/x25519.rs language/documentation/examples/diem-framework/crates/crypto/src/unit_tests/mod.rs language/documentation/examples/diem-framework/crates/crypto/src/unit_tests/bcs_test.rs language/documentation/examples/diem-framework/crates/crypto/src/unit_tests/compat_test.rs language/documentation/examples/diem-framework/crates/crypto/src/unit_tests/cross_test.rs language/documentation/examples/diem-framework/crates/crypto/src/unit_tests/cryptohasher.rs language/documentation/examples/diem-framework/crates/crypto/src/unit_tests/ed25519_test.rs language/documentation/examples/diem-framework/crates/crypto/src/unit_tests/hash_test.rs language/documentation/examples/diem-framework/crates/crypto/src/unit_tests/hkdf_test.rs language/documentation/examples/diem-framework/crates/crypto/src/unit_tests/multi_ed25519_test.rs language/documentation/examples/diem-framework/crates/crypto/src/unit_tests/noise_test.rs
+
+/Users/lteng/Movebit/sui-move/target/debug/deps/diem_crypto-f3a2bcbb72a744ea.d: language/documentation/examples/diem-framework/crates/crypto/src/lib.rs language/documentation/examples/diem-framework/crates/crypto/src/compat.rs language/documentation/examples/diem-framework/crates/crypto/src/ed25519.rs language/documentation/examples/diem-framework/crates/crypto/src/error.rs language/documentation/examples/diem-framework/crates/crypto/src/hash.rs language/documentation/examples/diem-framework/crates/crypto/src/hkdf.rs language/documentation/examples/diem-framework/crates/crypto/src/multi_ed25519.rs language/documentation/examples/diem-framework/crates/crypto/src/noise.rs language/documentation/examples/diem-framework/crates/crypto/src/test_utils.rs language/documentation/examples/diem-framework/crates/crypto/src/traits.rs language/documentation/examples/diem-framework/crates/crypto/src/validatable.rs language/documentation/examples/diem-framework/crates/crypto/src/x25519.rs language/documentation/examples/diem-framework/crates/crypto/src/unit_tests/mod.rs language/documentation/examples/diem-framework/crates/crypto/src/unit_tests/bcs_test.rs language/documentation/examples/diem-framework/crates/crypto/src/unit_tests/compat_test.rs language/documentation/examples/diem-framework/crates/crypto/src/unit_tests/cross_test.rs language/documentation/examples/diem-framework/crates/crypto/src/unit_tests/cryptohasher.rs language/documentation/examples/diem-framework/crates/crypto/src/unit_tests/ed25519_test.rs language/documentation/examples/diem-framework/crates/crypto/src/unit_tests/hash_test.rs language/documentation/examples/diem-framework/crates/crypto/src/unit_tests/hkdf_test.rs language/documentation/examples/diem-framework/crates/crypto/src/unit_tests/multi_ed25519_test.rs language/documentation/examples/diem-framework/crates/crypto/src/unit_tests/noise_test.rs
+
+language/documentation/examples/diem-framework/crates/crypto/src/lib.rs:
+language/documentation/examples/diem-framework/crates/crypto/src/compat.rs:
+language/documentation/examples/diem-framework/crates/crypto/src/ed25519.rs:
+language/documentation/examples/diem-framework/crates/crypto/src/error.rs:
+language/documentation/examples/diem-framework/crates/crypto/src/hash.rs:
+language/documentation/examples/diem-framework/crates/crypto/src/hkdf.rs:
+language/documentation/examples/diem-framework/crates/crypto/src/multi_ed25519.rs:
+language/documentation/examples/diem-framework/crates/crypto/src/noise.rs:
+language/documentation/examples/diem-framework/crates/crypto/src/test_utils.rs:
+language/documentation/examples/diem-framework/crates/crypto/src/traits.rs:
+language/documentation/examples/diem-framework/crates/crypto/src/validatable.rs:
+language/documentation/examples/diem-framework/crates/crypto/src/x25519.rs:
+language/documentation/examples/diem-framework/crates/crypto/src/unit_tests/mod.rs:
+language/documentation/examples/diem-framework/crates/crypto/src/unit_tests/bcs_test.rs:
+language/documentation/examples/diem-framework/crates/crypto/src/unit_tests/compat_test.rs:
+language/documentation/examples/diem-framework/crates/crypto/src/unit_tests/cross_test.rs:
+language/documentation/examples/diem-framework/crates/crypto/src/unit_tests/cryptohasher.rs:
+language/documentation/examples/diem-framework/crates/crypto/src/unit_tests/ed25519_test.rs:
+language/documentation/examples/diem-framework/crates/crypto/src/unit_tests/hash_test.rs:
+language/documentation/examples/diem-framework/crates/crypto/src/unit_tests/hkdf_test.rs:
+language/documentation/examples/diem-framework/crates/crypto/src/unit_tests/multi_ed25519_test.rs:
+language/documentation/examples/diem-framework/crates/crypto/src/unit_tests/noise_test.rs:
+
+# env-dep:CARGO_MANIFEST_DIR=/Users/lteng/Movebit/sui-move/language/documentation/examples/diem-framework/crates/crypto

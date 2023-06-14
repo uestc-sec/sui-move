@@ -1,0 +1,107 @@
+cargo:rerun-if-changed=libfuzzer/FuzzerLoop.cpp
+cargo:rerun-if-changed=libfuzzer/FuzzerIOPosix.cpp
+cargo:rerun-if-changed=libfuzzer/FuzzerUtil.cpp
+cargo:rerun-if-changed=libfuzzer/FuzzerFork.cpp
+cargo:rerun-if-changed=libfuzzer/FuzzerMutate.cpp
+cargo:rerun-if-changed=libfuzzer/FuzzerDataFlowTrace.cpp
+cargo:rerun-if-changed=libfuzzer/FuzzerExtraCountersDarwin.cpp
+cargo:rerun-if-changed=libfuzzer/FuzzerExtFunctionsDlsym.cpp
+cargo:rerun-if-changed=libfuzzer/FuzzerUtilLinux.cpp
+cargo:rerun-if-changed=libfuzzer/FuzzerExtFunctionsWeak.cpp
+cargo:rerun-if-changed=libfuzzer/FuzzerIOWindows.cpp
+cargo:rerun-if-changed=libfuzzer/FuzzerSHA1.cpp
+cargo:rerun-if-changed=libfuzzer/FuzzerExtraCountersWindows.cpp
+cargo:rerun-if-changed=libfuzzer/FuzzerUtilWindows.cpp
+cargo:rerun-if-changed=libfuzzer/FuzzerDriver.cpp
+cargo:rerun-if-changed=libfuzzer/FuzzerExtFunctionsWindows.cpp
+cargo:rerun-if-changed=libfuzzer/FuzzerUtilPosix.cpp
+cargo:rerun-if-changed=libfuzzer/FuzzerMerge.cpp
+cargo:rerun-if-changed=libfuzzer/FuzzerCrossOver.cpp
+cargo:rerun-if-changed=libfuzzer/FuzzerUtilFuchsia.cpp
+cargo:rerun-if-changed=libfuzzer/FuzzerExtraCounters.cpp
+cargo:rerun-if-changed=libfuzzer/FuzzerInterceptors.cpp
+cargo:rerun-if-changed=libfuzzer/FuzzerUtilDarwin.cpp
+cargo:rerun-if-changed=libfuzzer/FuzzerMain.cpp
+cargo:rerun-if-changed=libfuzzer/FuzzerIO.cpp
+cargo:rerun-if-changed=libfuzzer/FuzzerTracePC.cpp
+TARGET = Some("aarch64-apple-darwin")
+OPT_LEVEL = Some("0")
+HOST = Some("aarch64-apple-darwin")
+CXX_aarch64-apple-darwin = None
+CXX_aarch64_apple_darwin = None
+HOST_CXX = None
+CXX = None
+CXXFLAGS_aarch64-apple-darwin = None
+CXXFLAGS_aarch64_apple_darwin = None
+HOST_CXXFLAGS = None
+CXXFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("true")
+CARGO_CFG_TARGET_FEATURE = Some("aes,crc,dit,dotprod,dpb,dpb2,fcma,fhm,flagm,fp16,frintts,jsconv,lor,lse,neon,paca,pacg,pan,pmuv3,ras,rcpc,rcpc2,rdm,sb,sha2,sha3,ssbs,vh")
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-arch" "arm64" "-Wall" "-Wextra" "-std=c++17" "-fno-omit-frame-pointer" "-w" "-o" "/Users/lteng/Movebit/sui-move/target/debug/build/libfuzzer-sys-c52e3ecffd479e62/out/libfuzzer/FuzzerLoop.o" "-c" "libfuzzer/FuzzerLoop.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-arch" "arm64" "-Wall" "-Wextra" "-std=c++17" "-fno-omit-frame-pointer" "-w" "-o" "/Users/lteng/Movebit/sui-move/target/debug/build/libfuzzer-sys-c52e3ecffd479e62/out/libfuzzer/FuzzerIOPosix.o" "-c" "libfuzzer/FuzzerIOPosix.cpp"
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-arch" "arm64" "-Wall" "-Wextra" "-std=c++17" "-fno-omit-frame-pointer" "-w" "-o" "/Users/lteng/Movebit/sui-move/target/debug/build/libfuzzer-sys-c52e3ecffd479e62/out/libfuzzer/FuzzerUtil.o" "-c" "libfuzzer/FuzzerUtil.cpp"
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-arch" "arm64" "-Wall" "-Wextra" "-std=c++17" "-fno-omit-frame-pointer" "-w" "-o" "/Users/lteng/Movebit/sui-move/target/debug/build/libfuzzer-sys-c52e3ecffd479e62/out/libfuzzer/FuzzerFork.o" "-c" "libfuzzer/FuzzerFork.cpp"
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-arch" "arm64" "-Wall" "-Wextra" "-std=c++17" "-fno-omit-frame-pointer" "-w" "-o" "/Users/lteng/Movebit/sui-move/target/debug/build/libfuzzer-sys-c52e3ecffd479e62/out/libfuzzer/FuzzerMutate.o" "-c" "libfuzzer/FuzzerMutate.cpp"
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-arch" "arm64" "-Wall" "-Wextra" "-std=c++17" "-fno-omit-frame-pointer" "-w" "-o" "/Users/lteng/Movebit/sui-move/target/debug/build/libfuzzer-sys-c52e3ecffd479e62/out/libfuzzer/FuzzerDataFlowTrace.o" "-c" "libfuzzer/FuzzerDataFlowTrace.cpp"
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-arch" "arm64" "-Wall" "-Wextra" "-std=c++17" "-fno-omit-frame-pointer" "-w" "-o" "/Users/lteng/Movebit/sui-move/target/debug/build/libfuzzer-sys-c52e3ecffd479e62/out/libfuzzer/FuzzerExtraCountersDarwin.o" "-c" "libfuzzer/FuzzerExtraCountersDarwin.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-arch" "arm64" "-Wall" "-Wextra" "-std=c++17" "-fno-omit-frame-pointer" "-w" "-o" "/Users/lteng/Movebit/sui-move/target/debug/build/libfuzzer-sys-c52e3ecffd479e62/out/libfuzzer/FuzzerExtFunctionsDlsym.o" "-c" "libfuzzer/FuzzerExtFunctionsDlsym.cpp"
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-arch" "arm64" "-Wall" "-Wextra" "-std=c++17" "-fno-omit-frame-pointer" "-w" "-o" "/Users/lteng/Movebit/sui-move/target/debug/build/libfuzzer-sys-c52e3ecffd479e62/out/libfuzzer/FuzzerUtilLinux.o" "-c" "libfuzzer/FuzzerUtilLinux.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-arch" "arm64" "-Wall" "-Wextra" "-std=c++17" "-fno-omit-frame-pointer" "-w" "-o" "/Users/lteng/Movebit/sui-move/target/debug/build/libfuzzer-sys-c52e3ecffd479e62/out/libfuzzer/FuzzerExtFunctionsWeak.o" "-c" "libfuzzer/FuzzerExtFunctionsWeak.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-arch" "arm64" "-Wall" "-Wextra" "-std=c++17" "-fno-omit-frame-pointer" "-w" "-o" "/Users/lteng/Movebit/sui-move/target/debug/build/libfuzzer-sys-c52e3ecffd479e62/out/libfuzzer/FuzzerIOWindows.o" "-c" "libfuzzer/FuzzerIOWindows.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-arch" "arm64" "-Wall" "-Wextra" "-std=c++17" "-fno-omit-frame-pointer" "-w" "-o" "/Users/lteng/Movebit/sui-move/target/debug/build/libfuzzer-sys-c52e3ecffd479e62/out/libfuzzer/FuzzerSHA1.o" "-c" "libfuzzer/FuzzerSHA1.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-arch" "arm64" "-Wall" "-Wextra" "-std=c++17" "-fno-omit-frame-pointer" "-w" "-o" "/Users/lteng/Movebit/sui-move/target/debug/build/libfuzzer-sys-c52e3ecffd479e62/out/libfuzzer/FuzzerExtraCountersWindows.o" "-c" "libfuzzer/FuzzerExtraCountersWindows.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-arch" "arm64" "-Wall" "-Wextra" "-std=c++17" "-fno-omit-frame-pointer" "-w" "-o" "/Users/lteng/Movebit/sui-move/target/debug/build/libfuzzer-sys-c52e3ecffd479e62/out/libfuzzer/FuzzerUtilWindows.o" "-c" "libfuzzer/FuzzerUtilWindows.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-arch" "arm64" "-Wall" "-Wextra" "-std=c++17" "-fno-omit-frame-pointer" "-w" "-o" "/Users/lteng/Movebit/sui-move/target/debug/build/libfuzzer-sys-c52e3ecffd479e62/out/libfuzzer/FuzzerDriver.o" "-c" "libfuzzer/FuzzerDriver.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-arch" "arm64" "-Wall" "-Wextra" "-std=c++17" "-fno-omit-frame-pointer" "-w" "-o" "/Users/lteng/Movebit/sui-move/target/debug/build/libfuzzer-sys-c52e3ecffd479e62/out/libfuzzer/FuzzerExtFunctionsWindows.o" "-c" "libfuzzer/FuzzerExtFunctionsWindows.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-arch" "arm64" "-Wall" "-Wextra" "-std=c++17" "-fno-omit-frame-pointer" "-w" "-o" "/Users/lteng/Movebit/sui-move/target/debug/build/libfuzzer-sys-c52e3ecffd479e62/out/libfuzzer/FuzzerUtilPosix.o" "-c" "libfuzzer/FuzzerUtilPosix.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-arch" "arm64" "-Wall" "-Wextra" "-std=c++17" "-fno-omit-frame-pointer" "-w" "-o" "/Users/lteng/Movebit/sui-move/target/debug/build/libfuzzer-sys-c52e3ecffd479e62/out/libfuzzer/FuzzerMerge.o" "-c" "libfuzzer/FuzzerMerge.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-arch" "arm64" "-Wall" "-Wextra" "-std=c++17" "-fno-omit-frame-pointer" "-w" "-o" "/Users/lteng/Movebit/sui-move/target/debug/build/libfuzzer-sys-c52e3ecffd479e62/out/libfuzzer/FuzzerCrossOver.o" "-c" "libfuzzer/FuzzerCrossOver.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-arch" "arm64" "-Wall" "-Wextra" "-std=c++17" "-fno-omit-frame-pointer" "-w" "-o" "/Users/lteng/Movebit/sui-move/target/debug/build/libfuzzer-sys-c52e3ecffd479e62/out/libfuzzer/FuzzerUtilFuchsia.o" "-c" "libfuzzer/FuzzerUtilFuchsia.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-arch" "arm64" "-Wall" "-Wextra" "-std=c++17" "-fno-omit-frame-pointer" "-w" "-o" "/Users/lteng/Movebit/sui-move/target/debug/build/libfuzzer-sys-c52e3ecffd479e62/out/libfuzzer/FuzzerExtraCounters.o" "-c" "libfuzzer/FuzzerExtraCounters.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-arch" "arm64" "-Wall" "-Wextra" "-std=c++17" "-fno-omit-frame-pointer" "-w" "-o" "/Users/lteng/Movebit/sui-move/target/debug/build/libfuzzer-sys-c52e3ecffd479e62/out/libfuzzer/FuzzerInterceptors.o" "-c" "libfuzzer/FuzzerInterceptors.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-arch" "arm64" "-Wall" "-Wextra" "-std=c++17" "-fno-omit-frame-pointer" "-w" "-o" "/Users/lteng/Movebit/sui-move/target/debug/build/libfuzzer-sys-c52e3ecffd479e62/out/libfuzzer/FuzzerUtilDarwin.o" "-c" "libfuzzer/FuzzerUtilDarwin.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-arch" "arm64" "-Wall" "-Wextra" "-std=c++17" "-fno-omit-frame-pointer" "-w" "-o" "/Users/lteng/Movebit/sui-move/target/debug/build/libfuzzer-sys-c52e3ecffd479e62/out/libfuzzer/FuzzerMain.o" "-c" "libfuzzer/FuzzerMain.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-arch" "arm64" "-Wall" "-Wextra" "-std=c++17" "-fno-omit-frame-pointer" "-w" "-o" "/Users/lteng/Movebit/sui-move/target/debug/build/libfuzzer-sys-c52e3ecffd479e62/out/libfuzzer/FuzzerIO.o" "-c" "libfuzzer/FuzzerIO.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-arch" "arm64" "-Wall" "-Wextra" "-std=c++17" "-fno-omit-frame-pointer" "-w" "-o" "/Users/lteng/Movebit/sui-move/target/debug/build/libfuzzer-sys-c52e3ecffd479e62/out/libfuzzer/FuzzerTracePC.o" "-c" "libfuzzer/FuzzerTracePC.cpp"
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+AR_aarch64-apple-darwin = None
+AR_aarch64_apple_darwin = None
+HOST_AR = None
+AR = None
+running: "ar" "cq" "/Users/lteng/Movebit/sui-move/target/debug/build/libfuzzer-sys-c52e3ecffd479e62/out/libfuzzer.a" "/Users/lteng/Movebit/sui-move/target/debug/build/libfuzzer-sys-c52e3ecffd479e62/out/libfuzzer/FuzzerLoop.o" "/Users/lteng/Movebit/sui-move/target/debug/build/libfuzzer-sys-c52e3ecffd479e62/out/libfuzzer/FuzzerIOPosix.o" "/Users/lteng/Movebit/sui-move/target/debug/build/libfuzzer-sys-c52e3ecffd479e62/out/libfuzzer/FuzzerUtil.o" "/Users/lteng/Movebit/sui-move/target/debug/build/libfuzzer-sys-c52e3ecffd479e62/out/libfuzzer/FuzzerFork.o" "/Users/lteng/Movebit/sui-move/target/debug/build/libfuzzer-sys-c52e3ecffd479e62/out/libfuzzer/FuzzerMutate.o" "/Users/lteng/Movebit/sui-move/target/debug/build/libfuzzer-sys-c52e3ecffd479e62/out/libfuzzer/FuzzerDataFlowTrace.o" "/Users/lteng/Movebit/sui-move/target/debug/build/libfuzzer-sys-c52e3ecffd479e62/out/libfuzzer/FuzzerExtraCountersDarwin.o" "/Users/lteng/Movebit/sui-move/target/debug/build/libfuzzer-sys-c52e3ecffd479e62/out/libfuzzer/FuzzerExtFunctionsDlsym.o" "/Users/lteng/Movebit/sui-move/target/debug/build/libfuzzer-sys-c52e3ecffd479e62/out/libfuzzer/FuzzerUtilLinux.o" "/Users/lteng/Movebit/sui-move/target/debug/build/libfuzzer-sys-c52e3ecffd479e62/out/libfuzzer/FuzzerExtFunctionsWeak.o" "/Users/lteng/Movebit/sui-move/target/debug/build/libfuzzer-sys-c52e3ecffd479e62/out/libfuzzer/FuzzerIOWindows.o" "/Users/lteng/Movebit/sui-move/target/debug/build/libfuzzer-sys-c52e3ecffd479e62/out/libfuzzer/FuzzerSHA1.o" "/Users/lteng/Movebit/sui-move/target/debug/build/libfuzzer-sys-c52e3ecffd479e62/out/libfuzzer/FuzzerExtraCountersWindows.o" "/Users/lteng/Movebit/sui-move/target/debug/build/libfuzzer-sys-c52e3ecffd479e62/out/libfuzzer/FuzzerUtilWindows.o" "/Users/lteng/Movebit/sui-move/target/debug/build/libfuzzer-sys-c52e3ecffd479e62/out/libfuzzer/FuzzerDriver.o" "/Users/lteng/Movebit/sui-move/target/debug/build/libfuzzer-sys-c52e3ecffd479e62/out/libfuzzer/FuzzerExtFunctionsWindows.o" "/Users/lteng/Movebit/sui-move/target/debug/build/libfuzzer-sys-c52e3ecffd479e62/out/libfuzzer/FuzzerUtilPosix.o" "/Users/lteng/Movebit/sui-move/target/debug/build/libfuzzer-sys-c52e3ecffd479e62/out/libfuzzer/FuzzerMerge.o" "/Users/lteng/Movebit/sui-move/target/debug/build/libfuzzer-sys-c52e3ecffd479e62/out/libfuzzer/FuzzerCrossOver.o" "/Users/lteng/Movebit/sui-move/target/debug/build/libfuzzer-sys-c52e3ecffd479e62/out/libfuzzer/FuzzerUtilFuchsia.o" "/Users/lteng/Movebit/sui-move/target/debug/build/libfuzzer-sys-c52e3ecffd479e62/out/libfuzzer/FuzzerExtraCounters.o" "/Users/lteng/Movebit/sui-move/target/debug/build/libfuzzer-sys-c52e3ecffd479e62/out/libfuzzer/FuzzerInterceptors.o" "/Users/lteng/Movebit/sui-move/target/debug/build/libfuzzer-sys-c52e3ecffd479e62/out/libfuzzer/FuzzerUtilDarwin.o" "/Users/lteng/Movebit/sui-move/target/debug/build/libfuzzer-sys-c52e3ecffd479e62/out/libfuzzer/FuzzerMain.o" "/Users/lteng/Movebit/sui-move/target/debug/build/libfuzzer-sys-c52e3ecffd479e62/out/libfuzzer/FuzzerIO.o" "/Users/lteng/Movebit/sui-move/target/debug/build/libfuzzer-sys-c52e3ecffd479e62/out/libfuzzer/FuzzerTracePC.o"
+exit status: 0
+running: "ar" "s" "/Users/lteng/Movebit/sui-move/target/debug/build/libfuzzer-sys-c52e3ecffd479e62/out/libfuzzer.a"
+exit status: 0
+cargo:rustc-link-lib=static=fuzzer
+cargo:rustc-link-search=native=/Users/lteng/Movebit/sui-move/target/debug/build/libfuzzer-sys-c52e3ecffd479e62/out
+CXXSTDLIB_aarch64-apple-darwin = None
+CXXSTDLIB_aarch64_apple_darwin = None
+HOST_CXXSTDLIB = None
+CXXSTDLIB = None
+cargo:rustc-link-lib=c++

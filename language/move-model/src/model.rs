@@ -2434,27 +2434,27 @@ impl<'env> ModuleEnv<'env> {
 #[derive(Debug)]
 pub struct StructData {
     /// The name of this struct.
-    name: Symbol,
+    pub name: Symbol,
 
     /// The location of this struct.
-    loc: Loc,
+    pub loc: Loc,
 
     /// Attributes attached to this structure.
-    attributes: Vec<Attribute>,
+    pub attributes: Vec<Attribute>,
 
     /// List of function argument names. Not in bytecode but obtained from AST.
     /// Information about this struct.
-    info: StructInfo,
+    pub info: StructInfo,
 
     /// Field definitions.
-    field_data: BTreeMap<FieldId, FieldData>,
+    pub field_data: BTreeMap<FieldId, FieldData>,
 
     /// Associated specification.
-    spec: Spec,
+    pub spec: Spec,
 }
 
 #[derive(Debug)]
-enum StructInfo {
+pub enum StructInfo {
     /// Struct is declared in Move and info found in VM format.
     Declared {
         /// The definition index of this struct in its module.
@@ -2785,17 +2785,17 @@ impl<'env> StructEnv<'env> {
 #[derive(Debug)]
 pub struct FieldData {
     /// The name of this field.
-    name: Symbol,
+    pub name: Symbol,
 
     /// The offset of this field.
-    offset: usize,
+    pub offset: usize,
 
     /// More information about this field
-    info: FieldInfo,
+    pub info: FieldInfo,
 }
 
 #[derive(Debug)]
-enum FieldInfo {
+pub enum FieldInfo {
     /// The field is declared in Move.
     Declared {
         /// The struct definition index of this field in its VM module.
